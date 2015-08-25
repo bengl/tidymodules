@@ -1,0 +1,24 @@
+{
+  "name": "tidymodules",
+  "version": "1.0.0",
+  "description": "Clean up your node_modules tree",
+  "main": "index.js",
+  "bin": "bin/tidymodules.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "glob": "^5.0.14",
+    "rimraf": "^2.4.2",
+    "yargs": "^3.21.0",
+    "yesno": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "standard": "^5.1.0",
+    "touch": "^1.0.0"
+  }
+}
