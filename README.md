@@ -1,5 +1,7 @@
 # `tidymodules`
 
+[![Join the chat at https://gitter.im/bengl/tidymodules](https://badges.gitter.im/bengl/tidymodules.svg)](https://gitter.im/bengl/tidymodules?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a small tool for cleaning up a `node_modules` tree, recursively. This is
 most useful for cutting out unnecessary cruft such as READMEs, test files and
 other such useless files for production packaging purposes.
